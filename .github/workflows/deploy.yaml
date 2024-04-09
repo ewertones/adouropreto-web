@@ -2,7 +2,7 @@ name: Deploy front-end to dev environment
 
 on:
     push:
-        branches: [dev, main]
+        branches: [main]
     workflow_dispatch:
 
 env:
@@ -23,7 +23,7 @@ jobs:
             - name: "Checkout code"
               uses: "actions/checkout@v4"
               with:
-                  ref: dev
+                  ref: main
 
             - name: "Authenticate in Google Cloud"
               id: auth
