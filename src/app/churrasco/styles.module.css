@@ -1,0 +1,51 @@
+.churrascoBackground {
+    background-image: url("/churrasco.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1500px;
+}
+
+.churrascoBody {
+    background-color: rgba(255, 255, 255, 90%);
+    min-height: 1500px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+.additionalInfo {
+    padding-top: 20px;
+}
+
+.additionalInfo p {
+    margin-bottom: 10px;
+}
+
+.additionalInfo ul {
+    margin-left: 20px;
+}
+
+.additionalInfo li {
+    list-style-type: disc;
+}
+
+.horizontalLine {
+    height: 3px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
