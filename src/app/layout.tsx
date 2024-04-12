@@ -28,6 +28,8 @@ export default function RootLayout({
             <meta name="description" content={metadata.description || ""} />
             <meta property="og:url" content="https://adouropreto.com.br/" />
             <meta property="og:image" content="/favicon.ico" />
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="pt_BR" />
             <body className={inter.className}>{children}</body>
         </html>
     );
