@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="pt-br">
+            <meta name="description" content={metadata.description || ""} />
+            <meta property="og:url" content="https://adouropreto.com.br/" />
+            <meta property="og:image" content="/favicon.ico" />
             <body className={inter.className}>{children}</body>
         </html>
     );
